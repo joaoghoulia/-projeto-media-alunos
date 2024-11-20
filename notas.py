@@ -8,3 +8,13 @@ media = (nota1 + nota2 + nota3) / 3
 
 # Exibe a média
 print(f"A média do aluno é: {media:.2f}")
+
+
+def exibir_resultado(media):
+    # Exibe o resultado com base na média
+    if media > 6:
+        print("Aprovado")
+    elif 5.0 < media <= 6.0:
+        print("Recuperação")
+    else:
+        print("Reprovado")
